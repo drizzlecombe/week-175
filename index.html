@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrew Watson">
+        <title>CARES Winlink Net Week 174 checkins</title>
+
+        <style>
+            body {
+                /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+                font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 1rem;
+                font-weight:400;
+                color: #1a1a1a;
+                background-image: none;
+                background: #e8e8e8;
+
+                /* auto margins centre this container within its parent */
+
+                /* border: thin solid red; */
+                margin-left: auto;
+                margin-right: auto;
+                width: 70%;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 40px;
+            }
+
+            /* Apply these styles when the browser width is 768px or less (tablets/mobiles) */
+            @media (max-width: 768px) {
+                body {
+                    width: 80%; /* Smaller margin for smaller screens */
+                }
+            }
+
+            /* Apply these styles when the browser width is 480px or less (mobiles) */
+            @media (max-width: 480px) {
+                body {
+                    width: 90%; /* Even smaller margin for very small screens */
+            }
+}
+            
+            div#n1acw_container {
+                overflow: auto;
+                border: thin solid red;
+            }
+
+            h1, h2 {
+                color: rgb(60, 60, 60);
+                font-weight: bold;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+
+            textarea {
+                font-size: 90%;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            div.auxc-checkin {
+                background-color: #F0F0F0;
+                border: thin solid darkgrey;
+                border-radius: 10px;
+                padding-left: 5%;
+                padding-right: 5%;
+                /* padding-bottom: 40px; */
+                margin-top: 20px;
+                overflow: hidden;
+            }
+
+            div.exercise-requirements {
+                /* background-color: lightgrey; */
+                border: thin solid darkgrey;
+                border-radius: 10px;
+                padding-right: 5%;
+                margin-top: 20px;
+                font-size: 1rem;
+            }
+            
+            div.exercise-requirements li {
+                font-size: 1rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .checkin-sentence {
+                font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+                /* font-family: Courier New, monospace; */
+                color: darkgreen;
+                font-size: 18px;
+                font-weight: bold;
+                text-align: left;
+                text-transform: uppercase;
+            }
+            .under-review {
+                font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+                /* font-family: Courier New, monospace; */
+                color: darkred;
+                font-size: 0.6rem;
+                font-weight: bold;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            .utility_thumbnail, .submitted_image {
+                border-style:none;
+                float:none;
+                padding-left: 50px;
+                /* padding-right: 20px; */
+                padding-top: 0px;
+                padding-bottom: 20px; 
+            }
+            .utility_thumbnail_right, .submitted_image_right {
+                border-style:none;
+                float:right;
+                padding-left: 20px;
+                padding-right: 0px;
+                padding-top: 0px;
+                padding-bottom: 20px; 
+            }
+
+            .utility_thumbnail_left, .submitted_image_left {
+                border-style:none;
+                float:left;
+                padding-left: 0px;
+                padding-right: 20px;
+                padding-top: 0px;
+                padding-bottom: 20px; 
+            }            
+            .utility_thumbnail:hover,
+            .utility_thumbnail_right:hover,
+            .utility_thumbnail_left:hover {
+                transform: scale(1.05);
+            }
+
+            #jump-to-AUXC-block {
+                display: flex;
+                align-items: center; 
+            }
+
+            #AUXC-jump-paragraph {
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            #AUXC-select-list {
+                display: inline-block;
+            }
+        </style>
+
+        <script>
+            function jumpToAUXC() {
+                const selectElement = document.getElementById("AUXC-select-list");
+                const selectedValue = selectElement.value;
+
+                if(selectedValue) { // Only jump if a valid option is selected
+                    window.location.hash = selectedValue;
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>CARES Winlink Net: Week 175 Exercise</h1>
+
+        <p>Your teammates' exercise material is below. You should see their fire
+        hydrant or power pole footing  photograph and their response. Each AUXC
+        who submitted an image should have at least one image included. 
+        
+        <p>If you hover over an image and it resizes slightly, this indicates
+        that this is not the submitted size. You can click to see the original,
+        full-sized image. Use the browser's back button to return to this
+        check-in listing page from the full-sized image.</p>
+
+        <p> If latitude and longitude were included, I've linked to a map to
+        show the power pole footing or the hydrant reported on.</p>
+
+        <p>All other simple check-ins have been recorded, so if you do not see
+        your check-in sentence - rest assured: I have it and it has been added
+        to the roster list for week 175.</p>
+
+        <p> Your exercise requirements this week were to:</p>
+        <div class="exercise-requirements">
+            <ul>
+                <li>Placeholder</li>
+
+            </ul>
+        </div>
+
+
+        <h2>Individual AUXCs' fire hydrant or power pole footing reports</h2>
+
+        <p>Note that if an AUXC checked in through multiple RMSs, then each check-in
+            sentence is provided at the top of their information.</p>
+        <div id="jump-to-AUXC-block">
+            <p id="AUXC-jump-paragraph">Jump to a specific AUXC's check-in material:</p>
+
+            <select id=AUXC-select-list onchange="jumpToAUXC()">
+                <!--<option value="">Select an AUXC</option>
+                <option value="AUXC_AD7EF">AD7EF</option>
+                <option value="AUXC_AI7XM">AI7XM</option>
+                <option value="AUXC_K7QQB">K7QQB</option>
+                <option value="AUXC_K7VBY">K7VBY</option>
+                <option value="AUXC_KC7TAK">KC7TAK</option>
+                <option value="AUXC_KC7ZZX">KC7ZZX</option>
+                <option value="AUXC_KD7DNM">KD7DNM</option>
+                <option value="AUXC_KD7ISA">KD7ISA</option>
+                <option value="AUXC_KD7PFH">KD7PFH</option>
+                <option value="AUXC_KE7WNB">KE7WNB</option>
+                <option value="AUXC_KF7KXX">KF7KXX</option>
+                <option value="AUXC_KG7WKK">KG7WKK</option>
+                <option value="AUXC_KI7BDP">KI7BDP</option>
+                <option value="AUXC_KI7DGC">KI7DGC</option>
+                <option value="AUXC_KI7FCG">KI7FCG</option>
+                <option value="AUXC_KI7LAG">KI7LAG</option>
+                <option value="AUXC_KI7MDE">KI7MDE</option>
+                <option value="AUXC_KI7O">KI7O</option> -->
+                <option value="AUXC_KI7QIB">KI7QIB</option>
+                <!-- <option value="AUXC_KJ7JCR">KJ7JCR</option>
+                <option value="AUXC_KK6OTP">KK6OTP</option>
+                <option value="AUXC_KK7AOY">KK7AOY</option>
+                <option value="AUXC_KK7MLS">KK7MLS</option>
+                <option value="AUXC_KK7ZTC">KK7ZTC</option>
+                <option value="AUXC_N1ACW">N1ACW</option>
+                <option value="AUXC_W6RKT">W6RKT</option>
+                <option value="AUXC_W7CRI">W7CRI</option>
+                <option value="AUXC_W7PDQ">W7PDQ</option>
+                <option value="AUXC_W7CRI">W7CRI</option>
+                <option value="AUXC_W7TEE">W7TEE</option>
+                <option value="AUXC_WA6ZLV">WA6ZLV</option> -->
+                <option value="AUXC_WW7OR">WW7OR</option>
+            </select>
+        </div>
+
+    <!--
+        <div class="auxc-checkin" id="AUXC_CALLSIGN">
+            <p class="checkin-sentence">
+                CHECK-IN 
+            </p>
+            <a href="./images/CALLSIGN.jpg" target="_blank">Open supplied map image in a separate tab</a>
+
+            <p><strong>Message text:</strong></p>
+            <pre>
+            
+            </pre>
+        </div>
+    -->
+        <div class="auxc-checkin" id="AUXC_KI7QIB">
+            <p class="checkin-sentence">
+                175, VARA FM, W7BVT-10, 145.020, PORTLAND, MULTNOMAH, OR
+            </p>
+            <a href="./images/KI7QIB.jpg" target="_blank">Open supplied map image in a separate tab</a>
+
+                <p><strong>Message text:</strong></p>
+            <pre>
+** THIS IS AN EXERCISE **
+1. Incident Name: CARES Winlink Net no. 175
+2. To (Name and Position): Jessica Gonzalez/ Planning Section/ Traffic Control Analyst
+3. From (Name and Position): George Ford/ ODOT Supervisor
+4. Subject: CARES Winlink Net no. 175
+5. Date: 2026-03-04
+6. Time: 09:36
+7. Message:
+
+175, VARA FM, W7BVT-10, 145.020, PORTLAND, MULTNOMAH, OR
+
+SE Steele St. and Cesar E. Chavez Blvd.: 45.4847, -122.6227
+
+8. Approved by: George Ford
+8a. Position/Title: ODOT Supervisor
+</pre>
+        </div>
+
+        <div class="auxc-checkin" id="AUXC_WW7OR">
+            <p class="checkin-sentence">
+                175, WW7LO, VARA FM, N1ACW-10, 145.530, Lake Oswego, Clackamas, Oregon
+            </p>
+            <a href="./images/WW7OR.jpg" target="_blank">Open supplied map image in a separate tab</a>
+            <p><strong>Message text:</strong></p>
+            <pre>
+** THIS IS AN EXERCISE **
+1. Incident Name: CARES Winlink Net No. 175
+2. To (Name and Position): Jessica Gonzalez / traffic control analyst - planning sect.
+3. From (Name and Position): George Ford / ODOT Supervisor
+4. Subject: CARES Winlink Net No. 175
+5. Date: 2026-03-04
+6. Time: 11:05
+7. Message:
+175, WW7LO, VARA FM, N1ACW-10, 145.530, Lake Oswego, Clackamas, Oregon
+
+A traffic light controlled intersection of Bryant Road and Jean Road in Lake Oswego.
+45.3971, -122.7139
+
+8. Approved by: George Ford
+8a. Position/Title: ODOT Supervisor
+            </pre>
+        </div>
+
+    </body>
+</html>
